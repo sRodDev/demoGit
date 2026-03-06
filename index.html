@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Macondo&family=MedievalSharp&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <img src="Images/logo.png" alt="Logo de l'ENI" class="logo">
+
+    <h1 class="titre">Promo développeur web et web mobile 2026</h1>
+
+    <nav class="menu">
+        <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="preferences.html">Préférences</a></li>
+        <li><a href="carte.html">Carte</a></li>
+        <li><a href="informations.html">Informations</a></li>
+        </ul>
+    </nav>
+  </header>
+
+<div class="zone-affichage">
+<fieldset class="type-affichage">
+     <legend>Type d'affichage :</legend>
+
+  <div>
+    <input type="radio" id="liste" name="type-affichage" value="liste" checked />
+    <label for="liste">Liste</label>
+  </div>
+
+  <div>
+    <input type="radio" id="cartes" name="type-affichage" value="cartes" />
+    <label for="cartes">Cartes</label>
+  </div>
+</fieldset>
+</div>
+
+<div class="liste-apprenants">
+  <h2>Liste des apprenants</h2>
+
+  <ul id="liste-apprenants"></ul>
+
+</div>
+
+
+</body>
+</html>
